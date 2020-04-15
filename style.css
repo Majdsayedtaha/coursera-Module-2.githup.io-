@@ -10,13 +10,16 @@ h1{
     
 
 }
-p{
-   position: relative;
-   width: 110px;
-   margin: 0;
-   border: 2px solid black;
-   text-align: center;
-   font-size: 225%;
+.title{
+    margin: 0;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 225%;
+    padding: 0;
+    margin-left: 70%;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    float: none;
 }
 #p1{
   background-color: pink;  
@@ -30,13 +33,13 @@ p{
 }
 section{
   border: 2px solid black;
-    border-radius: 5px;
     margin-bottom: 15px;
     background-color: gray;
     float: left;
     padding: 5px;
     margin: 5px;
     font-size: 75%;
+    padding-top: 0px;
 }
 
 /*large devices only*/
